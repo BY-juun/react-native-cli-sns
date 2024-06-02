@@ -9,6 +9,7 @@ import {
 import React from 'react';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Feather from 'react-native-vector-icons/Feather';
+import Stories from '../components/Stories';
 
 const Home = () => {
   return (
@@ -23,10 +24,10 @@ const Home = () => {
           <Feather name="navigation" style={styles.featherIcon} />
         </View>
       </View>
-      {/* <ScrollView>
+      <ScrollView>
         <Stories />
-        <Post />
-      </ScrollView> */}
+        {/* <Post /> */}
+      </ScrollView>
     </SafeAreaView>
   );
 };
